@@ -1,0 +1,151 @@
+h2, h3, h4, h5 {
+  font-weight: bold;
+}
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+}
+header {
+  display: flex;
+  height: 69px;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+}
+.logo-image {
+  padding-left: 10px;
+  flex-grow: 1;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+nav span{
+  padding: 10px;
+}
+a{
+  color: seashell;
+}
+.content {
+  padding-top: 69px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Our-Mission{
+  background-image: url("../Images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.Our-Mission-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background-color: black;
+  height: 100px;
+}
+.Our-Mission-title h2, h4 {
+  margin: 0;
+}
+.Tea-of-the-Month {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+  padding-top: 20px;
+}
+.Tea-of-the-Month h4 {
+  padding-bottom: 0px 10px 10px 10px;
+}
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.image h4 {
+    padding: 10px;
+}
+.Tea-Images {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.locations {
+  background-image: url("../Images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.locations h2 {
+  height: 0;
+  padding-top: 30px;
+  p
+}
+.location-content {
+  display: flex;
+}
+.location {
+  width: 300px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 1;
+  background-color: black;
+}
+.location h3 {
+  margin: 10px 10px;;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+}
+.address span {
+  padding: 20px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-title {
+  height: 100px;
+}
+.footer-title h2{
+  margin: 10px;
+}
+.footer-address {
+  height: 50px;
+}
+.footer-address h5{
+  margin: 0;
+}
+.footer-number {
+  height: 50px;
+}
+.copyright {
+  align-self: flex-start;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
